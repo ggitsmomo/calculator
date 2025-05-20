@@ -26,7 +26,7 @@ if select == 2:
     print("You choosed Circle,")
     radius = float(input("Enter the radius : "))
 
-    result = 3.1472*radius
+    result = 3.1472*radius*radius
 
     print(f"The area is : {result}")
 
